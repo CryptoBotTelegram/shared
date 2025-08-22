@@ -17,7 +17,6 @@ build-backend = "setuptools.build_meta"
 packages = [
     "shared",
     "shared.entity",
-    "shared.enums",
-    "shared.constants"
+    "shared.enums"
 ]
 include-package-data = true
