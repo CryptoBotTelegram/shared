@@ -1,6 +1,6 @@
 [project]
 name = "cryptobot-shared"
-version = "0.1.0"
+version = "0.1.1"
 description = "Shared library for CryptoBot Telegram"
 authors = [
     { name = "CryptoBotTeam", email = "team@cryptobot.com" }
@@ -15,3 +15,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 packages = ["shared", "shared.entity"]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
