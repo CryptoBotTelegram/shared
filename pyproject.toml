@@ -14,7 +14,7 @@ requires = ["setuptools>=65.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["shared", "shared.entity"]
+#packages = ["shared", "shared.entity"]
 include-package-data = true
 
 [tool.setuptools.packages.find]
