@@ -1,0 +1,17 @@
+[project]
+name = "cryptobot-shared"
+version = "0.1.0"
+description = "Shared library for CryptoBot Telegram"
+authors = [
+    { name = "CryptoBotTeam", email = "team@cryptobot.com" }
+]
+dependencies = [
+    "pydantic>=2.0",
+]
+
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["shared"]
