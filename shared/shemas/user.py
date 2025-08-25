@@ -16,5 +16,6 @@ class UserSettingsDTO(BaseModel):
     LLM_model: str = Field(default=LLMModel.GPT)
     alert_config_general: list[str] = Field(default_factory=list)
     alert_config_specific: list[str] = Field(default_factory=list)
+    language: str = Field(default="ru")
 
 UserFull = Union[User, UserSettingsDTO]
